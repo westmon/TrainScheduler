@@ -1,5 +1,5 @@
 
-
+$(document).ready(funtion(){
   var config = {
     apiKey: "AIzaSyDKJNJXMYOuCMiMknMLn_jRelUqvbZXFt0",
     authDomain: "trainscheduler-c6a2b.firebaseapp.com",
@@ -65,3 +65,5 @@ $("#add-train").on("click", function(event) {
     }, function(errorObject) {
       // console.log("Errors handled: " + errorObject.code);
     });
+
+});
